@@ -1,9 +1,9 @@
 <?php defined('WPSS_PATH') or die();?>
 
+
 <?php $util = new WPSS_Util();?>
 <?php $question = new WPSS_Question('new');?>
 <?php $quiz = new WPSS_Quiz((int) $_GET['id']);?>
-
 
 <!-- Admin questions#new -->
 <div class="wrap wpss">

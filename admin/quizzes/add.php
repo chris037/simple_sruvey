@@ -7,7 +7,7 @@
 global $wpdb;
 
 $wpdb->insert( 
-  'test_wpss_quizzes_30', 
+  'wp_wpss_quizzes_30', 
   array( 
     'store_results' => 1, 
     'send_admin_email' => 1,

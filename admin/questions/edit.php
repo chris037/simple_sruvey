@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 $wpdb->update( 
 	
-	'test_wpss_questions_30', 
+	'wp_wpss_questions_30', 
 	array( 
 		'img_url' => $_POST['cv'][0]	// string
 	), 
@@ -115,7 +115,7 @@ $form->endFieldset();
 				echo '<img src="'. $full_url . '/file-uploads/medium/' . $_POST['cv'][0] .'" /><br/><br/>'; 
 				
             }else{
-            	$sql = "SELECT * FROM test_wpss_questions_30 WHERE id = ". $question->id . "";
+            	$sql = "SELECT * FROM wp_wpss_questions_30 WHERE id = ". $question->id . "";
        
             $mylink = $wpdb->get_results($sql); 
             echo '<img src="'. $full_url . '/file-uploads/medium/' . $mylink[0]->img_url .'" /><br/><br/>'; 

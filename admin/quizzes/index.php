@@ -64,11 +64,11 @@
   </tbody>
   </table>
 
-  <p>Don't see a feature you need? Check out the <a target='_blank' href="http://labs.saidigital.co/products/wordpress-simple-survey/wordpress-simple-survey-extended-version/">WordPress Simple Survey Extended version</a> and keep the <a target="_blank" href="https://sailabs.zendesk.com/hc/en-us/categories/200014674-WordPress-Simple-Survey">feature requests</a> coming!</p>
+  
 
   <div class="wpss-admin-nav">
     <p>
-      <a class="button-primary" href="#" onclick="alert('You must upgrade to the extended version in order to use this feature.');">+ Create New</a>&nbsp;
+      <a class="button-primary" href="<?php echo $util->admin_url('quiz', 'add', $quiz->id);?>" >+ Create New</a>&nbsp;
     </p>
   </div>
 

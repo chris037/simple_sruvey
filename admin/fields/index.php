@@ -76,7 +76,7 @@
 
   <div class="wpss-admin-nav">
     <p>
-      <a class="button-primary" href="#" onclick="alert('You must upgrade to the extended version in order to use this feature.');">+ Add New Field</a>&nbsp;
+      <a class="button-primary" href="#">+ Add New Field</a>&nbsp;
       <a class="button" href="<?php echo $util->admin_url('','');?>">&lsaquo; back</a>&nbsp;
     </p>
   </div>

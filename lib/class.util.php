@@ -70,7 +70,7 @@ class WPSS_Util{
     $url = admin_url('admin.php?page=wpss-quizzes&'.$req);
     return $url;
   }
-
+//http://wordpress:8888/wp-admin/admin.php?page=wpss-quizzes&wpss-page=quiz&action=edit&id=1
 
 
  /**
@@ -113,6 +113,8 @@ class WPSS_Util{
       }
       elseif($action == 'results_index'){
         require(WPSS_PATH.'admin/results/index.php'); 
+      }elseif($action == 'add'){ 
+        require(WPSS_PATH.'admin/quizzes/add.php'); 
       }
     }
     elseif($obj == "question"){
